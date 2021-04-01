@@ -1,31 +1,49 @@
 import React from "react";
 
 const Header = (props) => {
+  return (
+    <div>
+      <p>
+        <h1>{props.course}</h1>
+      </p>
+    </div>
+  );
+};
 
-}
+const Content = (props) => {
+  return (
+    <div>
+      <p>
+        {props.part} {props.exerceses}
+      </p>
+    </div>
+  );
+};
+
+const Total = (props) => {
+  return (
+    <div>
+      <p>Number of exerceses {props.total}</p>
+    </div>
+  );
+};
 
 const App = () => {
   const course = "Half Stack application development";
   const part1 = "Fundamentals of React";
-  const exercise1 = 10;
+  const exercises1 = 10;
   const part2 = "Using props to pass data";
-  const exercise2 = 7;
+  const exercises2 = 7;
   const part3 = "State of a component";
-  const exercise3 = 14;
+  const exercises3 = 14;
 
   return (
     <div>
-      <h1>{course}</h1>
-      <p>
-        {part1} {exercise1}
-      </p>
-      <p>
-        {part2} {exercise2}
-      </p>
-      <p>
-        {part3} {exercise3}
-      </p>
-      <p>Number of exercises {exercise1 + exercise2 + exercise3}</p>
+      <Header course={course} />
+      <Content part={part1} exerceses={exercises1} />
+      <Content part={part2} exerceses={exercises2} />
+      <Content part={part3} exerceses={exercises3} />
+      <Total total={exercises1 + exercises2 + exercises3} />
     </div>
   );
 };
