@@ -12,4 +12,5 @@ Helsingin yliopiston MOOC kurssi 👩🏼‍💻
 - [Tehtävä 1.1](https://github.com/lerikoya/full-stack-2021/tree/master/osa1/tehtava1.1)
 - [Tehtävä 1.2](https://github.com/lerikoya/full-stack-2021/tree/master/osa1/tehtava1.2)
 - [Tehtävä 1.3](https://github.com/lerikoya/full-stack-2021/tree/master/osa1/tehtava1.3)
+- [Tehtävä 1.4](https://github.com/lerikoya/full-stack-2021/tree/master/osa1/tehtava1.4)
 
