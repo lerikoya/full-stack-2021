@@ -9,4 +9,4 @@ Helsingin yliopiston MOOC kurssi 👩🏼‍💻
 
 ## Osa 1
 
-- [Kurssitiedot](https://github.com/lerikoya/full-stack-2021/tree/master/osa1/kurssitiedot)
+- [Kurssitiedot (Tehtävät 1.1 - 1.5)](https://github.com/lerikoya/full-stack-2021/tree/master/osa1/kurssitiedot)
